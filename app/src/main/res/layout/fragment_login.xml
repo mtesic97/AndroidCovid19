@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".LoginFragment">
+
+   <TextView
+       android:textColor="@color/colorPrimary"
+       android:gravity="center_horizontal"
+       android:text="Unesite korisnicko ime"
+       android:textSize="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+    <EditText
+        android:id="@+id/loginUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Unesite sifru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="password">
+    </EditText>
+    <Button
+        android:id="@+id/loginButton"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <TextView
+        android:id="@+id/loginRegistryButton"
+        android:paddingTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:layout_gravity="end"
+        android:text="register now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+</LinearLayout>

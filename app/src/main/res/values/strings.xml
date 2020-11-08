@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MarkoTesic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="mapbox_access_token">pk.eyJ1IjoibWFya28xOTk3IiwiYSI6ImNrZ3UxOXJxcTBnN3gyc3FybGRkZXBmZHkifQ.iBGYugLmmO_ZCGUJ29z0xw</string>
+</resources>
